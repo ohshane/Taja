@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 800px;
+  padding: 5px;
+}
+
+.box {
+  margin: 5px;
+}
+
+.sentence {
+  font-size: 1.5em;
+}
+
+#typebox {
+  padding: 0;
+  background-color: #0001;
+  border: none;
+  width: 790px;
+  overflow: hidden;
+}
+
+#typebox:focus {
+  outline: none;
+}
+
+#fileupload {
+  font-size: 1em;
+  width: 800px;
+  padding: 5px;
+  border: solid 1px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
